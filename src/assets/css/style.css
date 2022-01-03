@@ -1,0 +1,391 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f0f1f2;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 25px 0;
+    background-color: #fff;
+}
+
+.header-app {
+    background-image: url("../image/header.jpg");
+}
+
+.header-inline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.shop-channel {
+    align-items: center;
+
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.user-item {
+    position: relative;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-family: Arial;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon-user {
+    font-size: 30px !important;
+    color: dodgerblue;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.bell-icon {
+    font-size: 30px !important;
+    color: dodgerblue;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.notification {
+    font-size: 14px;
+    color: #666;
+}
+
+.img-logo {
+    height: 80px;
+    transform: translate(10px, 10px);
+}
+
+.icon-wrap {
+    align-self: start;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.title-tools {
+    font-size: 28px;
+    align-self: start;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+}
+
+.options-group {
+    background-color: #fff;
+    margin: 0px auto;
+    padding: 35px 40px 20px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+    border-radius: 2px;
+    width: calc(50% - 10px);
+}
+
+.display-flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.options-title {
+    padding-bottom: 28px;
+    border-bottom: 1px solid #ededed;
+}
+
+.add-title {
+    font-size: 24px;
+}
+
+.add-note {
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+    margin-top: 10px;
+}
+
+.btn-upload-file-wrap {
+    align-items: flex-end;
+    width: 48%;
+}
+
+.btn-upload-file {
+    align-self: flex-end;
+    margin-bottom: 0;
+}
+
+.btn-confirm-info {
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    width: 180px;
+    height: 40px;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.btn-confirm-info:hover {
+    opacity: 0.8;
+}
+
+.label-upload-file {
+    display: block;
+    height: 100%;
+    line-height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-upload-group {
+    margin-top: 26px;
+}
+
+.main-app {
+    padding-top: 20px;
+}
+
+.main-group {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.add-product-title {
+    padding-bottom: 28px;
+    border-bottom: 1px solid #ededed;
+}
+
+.add-title {
+    font-size: 24px;
+}
+
+.type-info-wrap {
+    padding-top: 26px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-product-info {
+    margin-top: 35px;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.label-title-img {
+    font-size: 15px;
+    width: 10%;
+    text-align: right;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.add-img-group {
+    height: 120px;
+    width: 120px;
+    background-color: #fff;
+    margin-right: 30px;
+}
+
+.product-img-chosen {
+    width: 100%;
+    height: 100%;
+}
+
+.add-img {
+    position: relative;
+    border: 1px dashed #1791f2;
+    width: 120px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.icon-add-img svg {
+    width: 29px;
+    height: 29px;
+    fill: #1791f2;
+}
+
+.icon-add-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.label-avt {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.star-color-red {
+    color: red;
+    font-size: 18px;
+    margin-right: 3px;
+}
+
+.pr-2 {
+    padding-right: 20px;
+}
+
+.add-img-wrap {
+    margin: 0 auto;
+}
+
+.filter-adjust {
+    width: 85%;
+}
+
+.adjust-group {
+    margin-top: 70px;
+}
+
+.adjust-title {
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.result-group {
+    background-color: #fff;
+    margin: 0px auto;
+    padding: 35px 40px 20px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+    border-radius: 2px;
+    width: 80%;
+}
+
+.img-result {
+    width: 100%;
+    display: block;
+    border: 1px solid #dfdada9c;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    width: 120px;
+    height:120px;
+}
+
+.step-1-2 {
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.img-group {
+    padding: 0 100px;
+}
+
+.img-result-group {
+    width: 48%;
+    margin-bottom: 25px;
+}
+
+.img-result-1 {
+    width: 100%;
+    min-height: 120px;
+    max-height: 120px;
+    border: 1px solid #dfdada9c;
+    border-radius: 3px;
+    margin-bottom: 8px;
+}
+
+.img-result-text {
+    text-align: center;
+    display: block;
+}
+
+.step-3-4 {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.img-original-group {
+    position: relative;
+}
+
+.img-original-group:hover .btn-confirm-detect{
+    display: block;
+}
+
+.label-detect-img {
+    display: block;
+    height: 100%;
+    line-height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-confirm-detect {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: auto;
+    padding: 8px;
+    background-color: limegreen;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    width: 100px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.add-input-img-group {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+.input-img {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.active {
+    background-color: black !important;
+}
+
+.color-orange {
+    background-color: #efc030;
+}
+
+.options-three {
+    margin-top: 60px;
+}
+
+.output-image {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: auto;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 34px;
+}
+
